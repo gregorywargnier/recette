@@ -8,7 +8,7 @@ const recettes = {
   },
   recette2: {
     nom: 'Amour de Saumon',
-    image: 'saumon.jpeg',
+    image: 'saumo.jpeg',
     ingredients: '2 pavés de Saumon, 10 Tomates Cerises, 1 gousse d\'Ail, 1 Citron',
     instructions: "Préchauffer le four à 180°C.\nPeler et émincer la gousse d'ail.\nCouper les tomates cerises en deux.\nDéposer chaque pavé de saumon au centre d'une feuille de cuisson et ajouter autour l'ail, les tomates cerises et le jus de citron.\nFermer les papillotes et enfourner 30 minutes.\nS'accorde bien avec un Pouilly Fumé."
   },
