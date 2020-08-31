@@ -1,0 +1,27 @@
+import React, { Component } from 'react'
+// CSS
+import './App.css'
+
+//Header
+import Header from './components/Header'
+
+class App extends Component {
+  state = {
+    pseudo: this.props.match.params.pseudo
+  }
+
+  render () {
+    return (
+      <div className='box'>
+        <Header pseudo={this.state.pseudo} />
+        <div className='cards'>
+          <div className='card'>
+            <h2>Une Carte</h2>
+          </div>
+        </div>
+      </div>
+    )
+  }
+}
+
+export default App
